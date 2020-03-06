@@ -1,0 +1,58 @@
+body{
+    background-image: url(https://thumbs.gfycat.com/DaringUnsightlyFritillarybutterfly-size_restricted.gif);
+}
+
+h1{
+    font-family: 'Lacquer' ;
+}
+
+.container, .results {
+    width: 400px;
+    padding: 20px;
+    margin: 50px auto;
+    border: 5px ridge #171517;
+    border-radius: 10px;
+    
+    transition: background-color .5s ease-in-out;
+    transition: border .2s ease-in-out;
+    
+    font-family: 'Lacquer' ;
+        background-color: #a25bba;
+        color:#632b63;
+}
+
+.results {
+    display: none;
+    color:#171517;
+}
+
+.container:hover {
+    background-color: black;
+        color:red;
+}
+
+.amountEaten,
+.yourName,
+.foodName,
+.foodName2 {
+    padding: 10px;
+}
+
+.submit {
+background-color: #ff63a2;
+        color:pink;
+    padding: 20px;
+    font-size: 18px;
+    
+    border: solid #a82c4d;
+    margin-top: 20px;
+font-family: 'Lacquer' ;
+}
+
+input {
+    border-radius:20%;
+}
+
+p {
+    font-size:24px;
+}
